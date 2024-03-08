@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.querySelectorAll('.dropdown-item').forEach(item => {
   item.addEventListener('click', function(event) {
     console.log('Dropdown item clicked:', this.getAttribute('data-course'));
-      
+
     event.preventDefault();
     // Get the selected course
     const course = this.getAttribute('data-course');
