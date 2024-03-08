@@ -1,0 +1,164 @@
+{
+    "HTML": [
+      {
+        "question": "What does HTML stand for?",
+        "options": ["Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyperlink Text Markup Language"],
+        "correctAnswer": "Hyper Text Markup Language"
+      },
+      {
+        "question": "Which HTML element is used to define important text?",
+        "options": ["<i>", "<strong>", "<b>", "<em>"],
+        "correctAnswer": "<strong>"
+      },
+      {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": ["class", "style", "font", "styles"],
+        "correctAnswer": "style"
+      },
+      {
+        "question": "Which character is used to indicate an end tag?",
+        "options": ["/", "<", "*", "^"],
+        "correctAnswer": "/"
+      },
+      {
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "options": ["<a href='http://www.example.com'>Example</a>", "<a url='http://www.example.com'>Example</a>", "<a>http://www.example.com</a>", "<a name='http://www.example.com'>Example</a>"],
+        "correctAnswer": "<a href='http://www.example.com'>Example</a>"
+      }
+    ],
+    "CSS": [
+      {
+        "question": "What does CSS stand for?",
+        "options": ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
+        "correctAnswer": "Cascading Style Sheets"
+      },
+      {
+        "question": "Which CSS property is used to change the text color of an element?",
+        "options": ["color", "bgcolor", "text-color", "font-color"],
+        "correctAnswer": "color"
+      },
+      {
+        "question": "Which CSS property is used to change the background color of an element?",
+        "options": ["bgcolor", "background-color", "color", "background"],
+        "correctAnswer": "background-color"
+      },
+      {
+        "question": "Which CSS property controls the text size?",
+        "options": ["font-size", "text-style", "text-size", "font-style"],
+        "correctAnswer": "font-size"
+      },
+      {
+        "question": "Which CSS property is used to set the space between lines of text?",
+        "options": ["spacing", "line-height", "line-spacing", "text-spacing"],
+        "correctAnswer": "line-height"
+      }
+    ],
+    "JavaScript": [
+      {
+        "question": "What is JavaScript?",
+        "options": ["A markup language", "A programming language", "A scripting language", "A styling language"],
+        "correctAnswer": "A scripting language"
+      },
+      {
+        "question": "Which symbol is used for comments in JavaScript?",
+        "options": ["//", "/* */", "<!-- -->", "#"],
+        "correctAnswer": "//"
+      },
+      {
+        "question": "How do you declare a JavaScript variable?",
+        "options": ["var myVar;", "variable myVar;", "v myVar;", "declare myVar;"],
+        "correctAnswer": "var myVar;"
+      },
+      {
+        "question": "What method is used to display a message in a popup box?",
+        "options": ["alert()", "popup()", "message()", "prompt()"],
+        "correctAnswer": "alert()"
+      },
+      {
+        "question": "Which operator is used to assign a value to a variable?",
+        "options": ["*", "=", "+", ":"],
+        "correctAnswer": "="
+      }
+    ],
+    "Python": [
+      {
+        "question": "What is Python?",
+        "options": ["A snake", "A programming language", "A type of food", "A board game"],
+        "correctAnswer": "A programming language"
+      },
+      {
+        "question": "Which symbol is used for comments in Python?",
+        "options": ["//", "/* */", "<!-- -->", "#"],
+        "correctAnswer": "#"
+      },
+      {
+        "question": "How do you declare a Python variable?",
+        "options": ["variable myVar;", "v myVar;", "var myVar;", "myVar = value;"],
+        "correctAnswer": "myVar = value;"
+      },
+      {
+        "question": "Which method is used to display a message in Python?",
+        "options": ["alert()", "popup()", "print()", "display()"],
+        "correctAnswer": "print()"
+      },
+      {
+        "question": "Which operator is used to assign a value to a variable in Python?",
+        "options": ["*", "=", "+", ":"],
+        "correctAnswer": "="
+      }
+    ],
+    "GoLang": [
+      {
+        "question": "What is GoLang?",
+        "options": ["A snake", "A programming language", "A type of food", "A board game"],
+        "correctAnswer": "A programming language"
+      },
+      {
+        "question": "Which symbol is used for comments in GoLang?",
+        "options": ["//", "/* */", "<!-- -->", "#"],
+        "correctAnswer": "//"
+      },
+      {
+        "question": "How do you declare a GoLang variable?",
+        "options": ["variable myVar;", "v myVar;", "var myVar;", "myVar := value;"],
+        "correctAnswer": "var myVar;"
+      },
+      {
+        "question": "Which method is used to display a message in GoLang?",
+        "options": ["alert()", "popup()", "print()", "display()"],
+        "correctAnswer": "print()"
+      },
+      {
+        "question": "Which operator is used to assign a value to a variable in GoLang?",
+        "options": ["*", "=", "+", ":="],
+        "correctAnswer": ":="
+      }
+    ],
+    "Rust": [
+      {
+        "question": "What is Rust?",
+        "options": ["A snake", "A programming language", "A type of food", "A board game"],
+        "correctAnswer": "A programming language"
+      },
+      {
+        "question": "Which symbol is used for comments in Rust?",
+        "options": ["//", "/* */", "<!-- -->", "#"],
+        "correctAnswer": "//"
+      },
+      {
+        "question": "How do you declare a Rust variable?",
+        "options": ["variable myVar;", "v myVar;", "var myVar;", "let myVar;"],
+        "correctAnswer": "let myVar;"
+      },
+      {
+        "question": "Which method is used to display a message in Rust?",
+        "options": ["alert()", "popup()", "println()", "display()"],
+        "correctAnswer": "println()"
+      },
+      {
+        "question": "Which operator is used to assign a value to a variable in Rust?",
+        "options": ["*", "=", "+", ":="],
+        "correctAnswer": "="
+      }
+    ]
+}

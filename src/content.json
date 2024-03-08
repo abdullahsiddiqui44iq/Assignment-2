@@ -1,0 +1,176 @@
+{
+  "HTML": {
+    "topics": [
+      {
+        "topic": "Introduction to HTML",
+        "content": "HTML stands for HyperText Markup Language. It is the standard markup language for creating web pages and web applications.",
+        "video": "https://www.youtube.com/embed/LbXAqQc2SHI"
+      },
+      {
+        "topic": "HTML Elements and Tags",
+        "content": "HTML elements are the building blocks of HTML pages. Tags are used to define elements.",
+        "video": "https://www.youtube.com/embed/8CVcjUR_rWI"
+      },
+      {
+        "topic": "HTML Structure: Head and Body",
+        "content": "HTML documents are composed of two main parts: the head and the body.",
+        "video": "https://www.youtube.com/embed/AdC4NraO728"
+      },
+      {
+        "topic": "HTML Forms and Inputs",
+        "content": "HTML forms are used to collect user input. Various types of input fields are available in HTML.",
+        "video": "https://www.youtube.com/embed/xA804pkXI2w"
+      },
+      {
+        "topic": "HTML5 Features and Semantics",
+        "content": "HTML5 introduces many new features and elements, including semantic elements that improve page structure.",
+        "video": "https://www.youtube.com/embed/bOUhq46fd5g"
+      }
+    ]
+  },
+  "CSS": {
+    "topics": [
+      {
+        "topic": "Introduction to CSS",
+        "content": "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in HTML.",
+        "video": "https://www.youtube.com/embed/XMMzJY22Iks"
+      },
+      {
+        "topic": "CSS Selectors",
+        "content": "CSS selectors are patterns used to select and style elements in an HTML document.",
+        "video": "https://www.youtube.com/embed/Z07d9Vu7GKM"
+      },
+      {
+        "topic": "CSS Box Model",
+        "content": "The CSS box model describes the rectangular boxes that are generated for elements in the document tree.",
+        "video": "https://www.youtube.com/embed/nSst4-WbEZk"
+      },
+      {
+        "topic": "CSS Flexbox",
+        "content": "CSS Flexbox provides a more efficient way to lay out, align, and distribute space among items in a container.",
+        "video": "https://www.youtube.com/embed/phWxA89Dy94"
+      },
+      {
+        "topic": "CSS Grid",
+        "content": "CSS Grid Layout provides a two-dimensional grid-based layout system for CSS.",
+        "video": "https://www.youtube.com/embed/EiNiSFIPIQE "
+      }
+    ]
+  },
+  "JavaScript": {
+    "topics": [
+      {
+        "topic": "Introduction to JavaScript",
+        "content": "JavaScript is a high-level, interpreted scripting language used to make web pages interactive.",
+        "video": "https://www.youtube.com/embed/VlPiVmYuoqw"
+      },
+      {
+        "topic": "JavaScript Variables and Data Types",
+        "content": "JavaScript variables are containers for storing data values. There are various data types in JavaScript.",
+        "video": "https://www.youtube.com/embed/vXqatzgjdLg"
+      },
+      {
+        "topic": "JavaScript Functions",
+        "content": "Functions are blocks of code designed to perform a particular task. They are executed when called.",
+        "video": "https://www.youtube.com/embed/j1laALb8OVM"
+      },
+      {
+        "topic": "JavaScript DOM Manipulation",
+        "content": "The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of the HTML document.",
+        "video": "https://www.youtube.com/embed/y17RuWkWdn8"
+      },
+      {
+        "topic": "JavaScript Events",
+        "content": "Events are actions or occurrences that happen in the system you are programming, which the system tells you about so you can respond to them.",
+        "video": "https://www.youtube.com/embed/YiOlaiscqDY"
+      }
+    ]
+  },
+  "Python": {
+    "topics": [
+      {
+        "topic": "Introduction to Python",
+        "content": "Python is an interpreted, high-level, general-purpose programming language. It emphasizes code readability and its syntax allows programmers to express concepts in fewer lines of code than possible in other languages.",
+        "video": "https://www.youtube.com/embed/kqtD5dpn9C8"
+      },
+      {
+        "topic": "Python Variables and Data Types",
+        "content": "Python variables are used to store data values. Python has many data types such as int, float, string, etc.",
+        "video": "https://www.youtube.com/embed/cQT33yu9pY8"
+      },
+      {
+        "topic": "Python Control Structures",
+        "content": "Control structures are blocks of programming statements that control the flow of execution in a program.",
+        "video": "https://www.youtube.com/embed/kIPpTYjareA"
+      },
+      {
+        "topic": "Python Functions",
+        "content": "Functions in Python are a sequence of statements grouped together to perform a specific task.",
+        "video": "https://www.youtube.com/embed/u-OmVr_fT4s"
+      },
+      {
+        "topic": "Python Object-Oriented Programming (OOP)",
+        "content": "Python supports object-oriented programming (OOP). Classes and objects are the two main aspects of OOP.",
+        "video": "https://www.youtube.com/embed/HeW-D6KpDwY"
+      }
+    ]
+  },
+  "GoLang": {
+    "topics": [
+      {
+        "topic": "Introduction to GoLang",
+        "content": "Go is a statically typed, compiled programming language designed at Google. It has a concise syntax and powerful features.",
+        "video": "https://www.youtube.com/embed/OqdBixi_y1s"
+      },
+      {
+        "topic": "Go Variables and Data Types",
+        "content": "Go variables are used to store data values. Go has basic data types such as int, float, string, etc.",
+        "video": "https://www.youtube.com/embed/AliHOoSIAtc"
+      },
+      {
+        "topic": "Go Control Structures",
+        "content": "Control structures are blocks of programming statements that control the flow of execution in a program.",
+        "video": "https://www.youtube.com/embed/g4ZR4YglMdM"
+      },
+      {
+        "topic": "Go Functions",
+        "content": "Functions in Go are a sequence of statements grouped together to perform a specific task.",
+        "video": "https://www.youtube.com/embed/tDKsqia-sYA"
+      },
+      {
+        "topic": "Go Concurrency",
+        "content": "Go supports concurrency using goroutines and channels. It allows multiple functions to run concurrently.",
+        "video": "https://www.youtube.com/embed/ZDNtUgWRDdk"
+      }
+    ]
+  },
+  "Rust": {
+    "topics": [
+      {
+        "topic": "Introduction to Rust",
+        "content": "Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety.",
+        "video": "https://www.youtube.com/embed/br3GIIQeefY"
+      },
+      {
+        "topic": "Rust Variables and Data Types",
+        "content": "Rust variables are used to store data values. Rust has basic data types such as int, float, string, etc.",
+        "video": "https://www.youtube.com/embed/OLPRIZ3_jL0"
+      },
+      {
+        "topic": "Rust Control Structures",
+        "content": "Control structures are blocks of programming statements that control the flow of execution in a program.",
+        "video": "https://www.youtube.com/embed/4LjQLp6y7Ao"
+      },
+      {
+        "topic": "Rust Functions",
+        "content": "Functions in Rust are a sequence of statements grouped together to perform a specific task.",
+        "video": "https://www.youtube.com/embed/5C_HPTJg5ek"
+      },
+      {
+        "topic": "Rust Ownership and Borrowing",
+        "content": "Rust has a unique ownership system that ensures memory safety without garbage collection.",
+        "video": "https://www.youtube.com/embed/q2UnbA2dkc8"
+      }
+    ]
+  }
+}
