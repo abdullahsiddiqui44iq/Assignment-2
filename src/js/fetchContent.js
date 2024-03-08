@@ -7,12 +7,15 @@ const content = document.querySelector('.content');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
 
-// Function to fetch Rust topics from the JSON file
+// Function to fetch HTML topics from the JSON file
 async function fetchTopics() {
     try {
         const response = await fetch('content.json');
         const data = await response.json();
-        topics = data.Rust.topics;
+        const course = document.title;
+        // topics = data.HTML.topics; // Original code
+        // making it dynamic
+        topics = data[course].topics;
         displayTopic();
     } catch (error) {
         console.error('Error fetching topics:', error);
