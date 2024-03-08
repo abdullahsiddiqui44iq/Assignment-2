@@ -14,7 +14,6 @@ async function fetchTopics() {
         const data = await response.json();
         const course = document.title;
         // topics = data.HTML.topics; // Original code
-        // making it dynamic
         topics = data[course].topics;
         displayTopic();
     } catch (error) {
@@ -22,7 +21,7 @@ async function fetchTopics() {
     }
 }
 
-// Function to display the current topic
+
 function displayTopic() {
     const topic = topics[currentTopicIndex];
     contentHeading.textContent = topic.topic;
@@ -30,7 +29,7 @@ function displayTopic() {
     content.textContent = topic.content;
 }
 
-// Event listener for the next button
+
 nextButton.addEventListener('click', () => {
     if (currentTopicIndex < topics.length - 1) {
         currentTopicIndex++;
@@ -38,7 +37,7 @@ nextButton.addEventListener('click', () => {
     }
 });
 
-// Event listener for the previous button
+
 prevButton.addEventListener('click', () => {
     if (currentTopicIndex > 0) {
         currentTopicIndex--;
@@ -46,5 +45,5 @@ prevButton.addEventListener('click', () => {
     }
 });
 
-// Fetch topics when the page loads
+
 fetchTopics();
