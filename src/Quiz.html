@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="../src/output.css" rel="stylesheet" />
+    <!-- <link href="./custom.css" rel="stylesheet" /> -->
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="max-h-screen">
+    <div class="">
+      <div class="grid grid-cols-2">
+        <div>
+          <header>
+            <img
+              src="./EDUCATIONIST.png"
+              class="h-auto sm:w-1/2 md:w-1/2 lg:w-1/4"
+              alt="Logo"
+            />
+          </header>
+        </div>
+        <div class="items-end">
+          <header>
+            <h1 class="text-end sm:text-3xl md:text-4xl lg:text-5xl me-5 pt-20">
+              THE EDUCATIONIST
+            </h1>
+            <p class="text-end text-gray-500 me-5">THE FUTURE IS HERE!!</p>
+          </header>
+        </div>
+      </div>
+    </div>
+
+    <nav class="bg-gray-800 border-gray-800 dark:bg-gray-800">
+      <div class="flex flex-wrap items-center justify-between p-4">
+        <a
+          href="./index.html"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img src="./Untitled design.png" class="h-8" alt="Educationist" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white"
+            >Educationist</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div
+          class="hidden justify-end w-full lg:flex lg:items-end lg:w-auto md:flex md:items-end md:w-auto pe-16"
+          id="navbar-default"
+        >
+          <ul
+            class="font-medium items-end flex flex-col md:flex-row md:space-x-8 rtl:space-x-reverse mt-4 md:mt-0"
+          >
+            <li>
+              <a
+                href="index.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="Quiz.html"
+                class="items-end block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                >Quiz</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="./Contact.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="flex flex-wrap">
+      <button
+        data-drawer-target="default-sidebar"
+        data-drawer-toggle="default-sidebar"
+        aria-controls="default-sidebar"
+        type="button"
+        class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg xl:hidden md:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      >
+        <span class="sr-only">Open sidebar</span>
+        <svg
+          class="w-6 h-6"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+          ></path>
+        </svg>
+      </button>
+
+      <aside
+        id="default-sidebar"
+        class="sm:fixed md:relative top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full md:translate-x-0 mt-5"
+        aria-label="Sidebar"
+      >
+        <div class="h-screen px-3 py-4 bg-gray-800 dark:bg-gray-800">
+          <ul class="space-y-2 font-medium justify-between">
+            <li>
+              <h1
+                class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group dark:text-white flex-1 ms-3 text-left rtl:text-right whitespace-nowrap"
+              >
+                COURSES
+              </h1>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                aria-controls="html"
+                data-collapse-toggle="html"
+              >
+                <span
+                  class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap"
+                  ><a href="hyper.html">HTML </a></span
+                >
+                <svg
+                  class="w-3 h-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+              <ul id="html" class="hidden py-2 space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('HTML',0)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Introduction</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('HTML',1)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >HTML Basics</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('HTML',2)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Lists In HTML</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('HTML',3)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >HTML Images</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('HTML',4)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >HtmL Forms</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <button
+                type="button"
+                class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                aria-controls="Python"
+                data-collapse-toggle="Python"
+              >
+                <span
+                  class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap"
+                  ><a href="pyth.html">Python</a></span
+                >
+                <svg
+                  class="w-3 h-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+              <ul id="Python" class="hidden py-2 space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('Python',0)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Introduction to Python</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('Python',1)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Variables & Data Types</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('Python',2)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Loops</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('Python',3)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Lists in Python</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('Python',4)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Dictionaries</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                aria-controls="C++"
+                data-collapse-toggle="C++"
+              >
+                <span
+                  class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap"
+                  ><a href="cc.html">C++</a></span
+                >
+                <svg
+                  class="w-3 h-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+              <ul id="C++" class="hidden py-2 space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C++',0)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Introduction to C++</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C++',1)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Variables & Data Types</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C++',2)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Functions in C++</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C++',3)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Arrays</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C++',4)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Loops</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                aria-controls="JAVA"
+                data-collapse-toggle="JAVA"
+              >
+                <span
+                  class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap"
+                  ><a href="java.html">JAVA</a></span
+                >
+                <svg
+                  class="w-3 h-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+              <ul id="JAVA" class="hidden py-2 space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('JAVA',0)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Introduction to JAVA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('JAVA',1)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Variables & Data Types</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('JAVA',2)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Functions in JAVA</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('JAVA',3)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Arrays</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('JAVA',4)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Loops</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <button
+                type="button"
+                class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                aria-controls="C#"
+                data-collapse-toggle="C#"
+              >
+                <span
+                  class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap"
+                  ><a href="csharp.html">C#</a></span
+                >
+                <svg
+                  class="w-3 h-3"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4"
+                  />
+                </svg>
+              </button>
+              <ul id="C#" class="hidden py-2 space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C#',0)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Introduction to C##</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C#',1)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Variables & Data Types</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C#',2)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Functions in C##</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C#',3)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Arrays</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    onclick="fetch_data('C#',4)"
+                    class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                    >Loops</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="flex-1" id="main-content">
+        <section class="bg-white dark:bg-white shadow-2xl mt-16 pb-10 pt-10">
+          <!-- Main modal -->
+          <div
+            id="authentication-modal"
+            tabindex="-1"
+            aria-hidden="true"
+            class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+          >
+            <div class="relative p-4 w-full max-w-md max-h-full">
+              <!-- Modal content -->
+              <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <!-- Modal header -->
+                <div
+                  class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600"
+                >
+                  <h3
+                    class="text-xl font-semibold text-gray-900 dark:text-white"
+                  >
+                    Enter Your Details
+                  </h3>
+                  <button
+                    type="button"
+                    onclick=""
+                    class="end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    data-modal-hide="authentication-modal"
+                  >
+                    <svg
+                      class="w-3 h-3"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 14"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
+                      />
+                    </svg>
+                    <span class="sr-only">Close modal</span>
+                  </button>
+                </div>
+                <!-- Modal body -->
+                <div class="p-4 md:p-5">
+                  <form class="space-y-4" action="#">
+                    <div>
+                      <label
+                        for="email"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                        >Your email</label
+                      >
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        placeholder="name@company.com"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="Name"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                        >Your Name</label
+                      >
+                      <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="john doe"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label
+                        for="topic"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                        >Choose Topic</label
+                      >
+                      <select
+                        id="topic"
+                        name="topic"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                      >
+                        <option
+                          id="html"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        >
+                          HTML
+                        </option>
+                        <option
+                          id="html"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        >
+                          JAVA
+                        </option>
+                        <option
+                          id="html"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        >
+                          C++
+                        </option>
+                        <option
+                          id="html"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        >
+                          Python
+                        </option>
+                        <option
+                          id="html"
+                          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                        >
+                          C#
+                        </option>
+                      </select>
+                    </div>
+                    <button
+                      type="submit"
+                      class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Start Quiz
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="py-8 lg:py-16"
+            id="content-container"
+            style="display: none"
+          >
+            <h1
+              class="ps-4 mb-4 text-4xl tracking-tight font-extrabold text-left text-gray-900 dark:text-gray-900"
+              id="html_heading"
+            ></h1>
+            <hr class="border-4 border-black" />
+            <p
+              class="mb-8 mt-4 ps-4 lg:mb-16 font-light text-gray-600 dark:text-gray-600 sm:text-lg"
+              id="html_para"
+            ></p>
+            <div class="mt-10">
+              <iframe
+                id="youtube_video"
+                class="mx-auto sm:aspect-video"
+                width="560"
+                height="315"
+                src=""
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="flex justify-between mt-10">
+              <button
+                type="button"
+                id="Previous_button"
+                onclick="next_option()"
+                class="py-2.5 px-11 ms-2 mb-2 text-lg font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                Previous
+              </button>
+              <button
+                type="button"
+                id="next_button"
+                onclick="prev_option()"
+                class="py-2.5 px-11 me-2 mb-2 text-lg font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="bottom-0 bg-gray-800 pb-5">
+      <div class="pt-3 grid sm:grid-cols-1 md:grid-cols-3 mt-5">
+        <div class="text-center mb-4 md:mb-0">
+          <h2 class="font-bold">ABOUT US</h2>
+          <p>
+            Educationist is a platform that provides a wide range of educational
+            services to students and teachers. We provide a platform for
+            students to learn and teachers to teach. We also provide a platform
+            for schools to manage their students and teachers.
+          </p>
+        </div>
+        <div class="text-center mb-4 md:mb-0">
+          <h2 class="font-bold mb-4">CONTACT US</h2>
+          <p>Phone: 1234567890</p>
+          <p>Email:Educationist@gmail.com</p>
+        </div>
+        <div class="text-center mb-4 md:mb-0">
+          <h2 class="font-bold mb-10">CONNECT WITH US</h2>
+          <a href="#" class="text-3xl pe-10"
+            ><i class="fa fa-facebook" aria-hidden="true"></i
+          ></a>
+          <a href="#" class="text-3xl pe-10"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+          <a href="#" class="text-3xl"
+            ><i class="fa fa-twitter" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="./quiz.js"></script>
+    <script src="quiz_video.js"></script>
+  </body>
+</html>
